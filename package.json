@@ -60,20 +60,22 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "postinstall": "ng build --aot -prod"
+        "heroku-postbuild": "ng build --prod"
     },
     "private": true,
     "dependencies": {
-        "@angular/cli": "~8.1.2",
-        "@angular/compiler-cli": "~8.1.2",
         "@angular/animations": "~8.1.2",
+        "@angular/cli": "~8.1.2",
         "@angular/common": "~8.1.2",
         "@angular/compiler": "~8.1.2",
+        "@angular/compiler-cli": "~8.1.2",
         "@angular/core": "~8.1.2",
         "@angular/forms": "~8.1.2",
         "@angular/platform-browser": "~8.1.2",
         "@angular/platform-browser-dynamic": "~8.1.2",
         "@angular/router": "~8.1.2",
+        "express": "^4.17.1",
+        "path": "^0.12.7",
         "rxjs": "~6.4.0",
         "tslib": "^1.9.0",
         "typescript": "~3.4.3",
@@ -105,4 +107,7 @@
         "npm": "6.9.0"
     }
 }
+<<<<<<< HEAD
 >>>>>>> b518fa40ff90209515bacad196e77e73a12294ce
+=======
+>>>>>>> 034548a552b928da178539772741050e8d0209ba
